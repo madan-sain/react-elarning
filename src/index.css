@@ -1,13 +1,115 @@
-body {
+* {
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* predefine */
+span {
+  color: #008cff;
 }
+
+
+/* predefine */
+/* body {
+
+} */
+
+
+.logo {
+  width: 42px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.phone {
+  color: #000;
+  position: relative;
+  border-left: #000 solid 1px;
+
+  right: 1px;
+  z-index: 2;
+  padding: 10px;
+}
+
+.mail {
+  color: #000;
+  position: relative;
+
+  left: 4px;
+  z-index: 2;
+  padding: 10px;
+}
+
+.navbar {
+  position: sticky;
+  top: 8px;
+  background-color: #fff;
+
+}
+a
+{
+  color: #000;
+}
+
+/* drover nave  */
+.drover li {
+  list-style: none;
+  padding: 10px;
+}
+
+.bars {
+  color: #000;
+}
+
+/* Homepage */
+.HomeBanner {
+  color: #000;
+  overflow-x: hidden;
+  margin-top: 12px;
+}
+
+.banner2 {
+  background-image: url(./image/banner.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.homeicon img {
+  cursor: pointer;
+}
+
+.Home-3 ul li {
+  margin-top: 10px;
+}
+.cardsimage
+{
+  margin-top: 3rem;
+}
+.line
+{
+  background-color: #1fa7fa;
+  height: 1vh;
+  border-radius: 10px;
+  width: 40%;
+  
+}
+   
+ .socoalicon svg
+ {
+   color: #008cff;
+   margin: 10px;
+   
+ }
+
+
